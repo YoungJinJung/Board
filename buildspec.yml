@@ -17,7 +17,7 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - build/libs/board-0.0.1-SNAPSHOT.jar
+    - build/libs/Board-*.war
     - appspec.yml   # CodeDeploy 적용 시 추가
     - script/**    # CodeDeploy 적용 시 추가
   discard-paths: yes
